@@ -1,6 +1,6 @@
-FROM node:16-alpine 
+FROM node:17-alpine 
 WORKDIR /app 
-ENV DATABASE_HOST="localhost" 
+ENV DATABASE_HOST="postgres" 
 ENV DATABASE_PORT="54320" 
 ENV DATABASE_USERNAME="postgres" 
 ENV DATABASE_PASSWORD="foo" 
